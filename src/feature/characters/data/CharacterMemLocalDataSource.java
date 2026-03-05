@@ -1,7 +1,4 @@
 package feature.characters.data;
-
-import org.character.Vehicle;
-
 import java.util.ArrayList;
 import java.util.Objects;
 
