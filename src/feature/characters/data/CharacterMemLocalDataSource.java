@@ -1,6 +1,6 @@
 package feature.characters.data;
 
-import org.nissan.Vehicle;
+import org.character.Vehicle;
 
 import java.util.ArrayList;
 import java.util.Objects;

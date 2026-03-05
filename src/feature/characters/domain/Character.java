@@ -1,6 +1,7 @@
 package feature.characters.domain;
 
 public class Character {
+
     private String id;
 
     public String getId() {
