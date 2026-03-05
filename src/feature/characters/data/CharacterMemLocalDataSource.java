@@ -19,4 +19,16 @@ public class CharacterMemLocalDataSource {
     public void delete(String characterId) {
         storage.removeIf(character -> Objects.equals(character.getId(), characterId));
     }
+
+    private static CharacterMemLocalDataSource instance = null;
+
+    public static CharacterMemLocalDataSource newInstance (){
+
+        if (instance == null){
+            instance = CharacterMemLocalDataSource.newInstance();
+        }
+
+        return instance;
+
+    }
 }
