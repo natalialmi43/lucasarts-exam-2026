@@ -1,16 +1,18 @@
 package feature.characters.data;
+import feature.characters.domain.CharacterModel;
+
 import java.util.ArrayList;
 import java.util.Objects;
 
 public class CharacterMemLocalDataSource {
 
-    private ArrayList<Character> storage = new ArrayList<>();
+    private ArrayList<CharacterModel> storage = new ArrayList<>();
 
-    public ArrayList<Character> findAll() {
+    public ArrayList<CharacterModel> findAll() {
         return storage;
     }
 
-    public void save(Character character) {
+    public void save(CharacterModel character) {
         storage.add(character);
     }
 

@@ -1,6 +1,6 @@
 package feature.characters.domain;
 
-public class Character {
+public class CharacterModel {
 
     private String id;
 
